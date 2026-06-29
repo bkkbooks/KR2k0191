@@ -1,0 +1,37 @@
+canonical_identifier: bkk:krp/KR2k0191/v1
+canonical_location: https://kanripo.org/bkk/KR2k0191/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 沙州記一卷
+  identifiers:
+    krp: KR2k0191
+  tags:
+    kr-categories: KR2k
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR2k0191.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR2k0191_001.yaml, hash: 'sha256:4e5bc5b75b9d2855c7dbab82b916812b448a96ee14acffd778f0ba0602e32ab9'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR2k0191_001.markers.yaml, hash: 'sha256:cbbb846fabe4daa09badbe85eece3332f733d0618bf34d865a68427efd6f2796'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR2k0191_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 199
+  label: 沙州記
+  type: section
+  level: 1
+hash: sha256:5788afef140f73cbe91634647edf7fb3afb120e72edd6eaad04c93248eb11935
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
